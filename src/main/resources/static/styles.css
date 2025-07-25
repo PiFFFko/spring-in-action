@@ -1,0 +1,83 @@
+/* styles.css — Dark Mode with bright taco vibe */
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #f2f2f2;
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #fdd835; /* ярко-жёлтый */
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #fbc02d;
+}
+
+img {
+    display: block;
+    margin: 0 auto 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.ingredient-group {
+    flex: 1 1 45%;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
+}
+
+.ingredient-group h3 {
+    color: #ff7043; /* оранжево-красный акцент */
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.2);
+    accent-color: #ff7043;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #1c1c1c;
+    color: #f2f2f2;
+    border: 1px solid #555;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #00e676; /* ярко-зелёная кнопка */
+    color: #121212;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00c853;
+    box-shadow: 0 0 10px #00e676;
+}
